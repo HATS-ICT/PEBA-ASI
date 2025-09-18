@@ -2,6 +2,9 @@
 
 This repository contains the implementation of Persona–Environment Behavioral Alignment (PEBA) and its optimization algorithm, PersonaEvolve (PEvo) in a Unity3D-based Active Shooter Incident Simulation. The framework reduces the Behavior–Realism Gap by iteratively refining agent personas so their collective behaviors match expert expectations. 
 
+For more details, please refer to the original paper: [Implicit Behavioral Alignment of Language Agents in High-Stakes Crowd Simulations](link-placeholder)
+
+
 ![PEBA-PEvo Diagram](./images/framework.jpg)
 
 
