@@ -1,19 +1,56 @@
 # PEBA-PEvo: Implicit Behavioral Alignment of Language Agents in High-Stakes Crowd Simulations
 
-This repository contains the implementation of Persona–Environment Behavioral Alignment (PEBA) and its optimization algorithm, PersonaEvolve (PEvo) in a Unity3D-based Active Shooter Incident Simulation. The framework reduces the Behavior–Realism Gap by iteratively refining agent personas so their collective behaviors match expert expectations. 
+<div align="center">
+<img src="./images/framework.jpg" alt="PEBA-PEvo Diagram" width="700">
+</div>
 
-For more details, please refer to the original paper: [Implicit Behavioral Alignment of Language Agents in High-Stakes Crowd Simulations](https://arxiv.org/abs/2509.16457)
+This repository accompanies our research paper titled [Implicit Behavioral Alignment of Language Agents in High-Stakes Crowd Simulations](https://arxiv.org/abs/2509.16457), and contains the implementation of Persona–Environment Behavioral Alignment (PEBA) and its optimization algorithm, PersonaEvolve (PEvo) in a Unity3D-based Active Shooter Incident Simulation. The framework reduces the Behavior–Realism Gap by iteratively refining agent personas so their collective behaviors match expert expectations. For more information, visit our [project homepage](https://hats-ict.github.io/peba-asi-web/).
+
+**Note:** For reasons of proprietary constraints, the original Unity environment scene will not be made publicly available at the moment. We provide sample simulation log data and a replay web viewer for visualization and data analysis code for educational purposes.
+
+## <img src="./images/mavis.png" alt="Agent Mavis" width="30"> Set Up Environment
+
+```
+git clone https://github.com/HATS-ICT/PEBA-ASI
+```
+
+Set up virtual environment and
+
+```
+pip install -r requirements.txt
+```
+
+## <img src="./images/alice.png" alt="Agent Alice" width="30"> Download Sample Simulation Data
+
+WIP
 
 
-![PEBA-PEvo Diagram](./images/framework.jpg)
+## <img src="./images/bob.png" alt="Agent Bob" width="30"> Replay Simulation
+
+WIP
 
 
-Codebase clean-up is work in progress and will be added in two weeks.
+## <img src="./images/charlie.png" alt="Agent Charlie" width="30"> Analyze Simulation
 
 
-# Citation
 
-If you use this repository, please cite our paper:
+```shell
+### Behavior Classification
+python classify_behavior.py --folder "Simulation_Run_Folder_Name"
+
+### Analysis Test
+python analyze_optimization.py --runs "Optimization_Run_Folder_Name"
+```
+
+
+
+
+## Authors and Citation
+
+
+**Authors:** Yunzhe Wang, Gale M. Lucas, Burcin Becerik-Gerber, Volkan Ustun
+
+If you find our codebase helpful, please cite our paper:
 
 ```
 @inproceedings{wang2025implicit,

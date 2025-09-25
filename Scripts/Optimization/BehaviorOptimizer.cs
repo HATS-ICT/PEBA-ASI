@@ -255,7 +255,7 @@ public class BehaviorOptimizer : MonoBehaviour
         if (Application.platform == RuntimePlatform.WindowsEditor || 
             Application.platform == RuntimePlatform.WindowsPlayer)
         {
-            return @"C:\Users\wangy\projects\ActiveShooterLLMAgent\venv\Scripts\python.exe";
+            return @"path\to\python.exe";
         }
         else
         {

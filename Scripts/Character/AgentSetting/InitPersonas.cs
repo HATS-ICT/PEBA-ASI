@@ -4,7 +4,7 @@ using System.IO;
 
 public static class InitPersonas
 {
-    public static string JsonFilePath = @"C:\Users\wangy\AppData\LocalLow\ICT\HATS-ASI-LLM\OptimizationRuns\PersonaEvolveGemini25flash_2025-05-19_00-09-55\Iteration_15\personas.json";
+    public static string JsonFilePath = @"path\to\personas.json";
     
     public static bool LoadOnlyPersonalityFields = true;
     
