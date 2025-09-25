@@ -4,7 +4,9 @@
 <img src="./images/framework.jpg" alt="PEBA-PEvo Diagram" width="600">
 </div>
 
-This repository accompanies our research paper titled [Implicit Behavioral Alignment of Language Agents in High-Stakes Crowd Simulations](https://arxiv.org/abs/2509.16457), and contains the implementation of Persona–Environment Behavioral Alignment (PEBA) and its optimization algorithm, PersonaEvolve (PEvo) in a Unity3D-based Active Shooter Incident Simulation. The framework reduces the Behavior–Realism Gap by iteratively refining agent personas so their collective behaviors match expert expectations. For more information, visit our [project homepage](https://hats-ict.github.io/peba-asi-web/).
+This repository accompanies our research paper titled [Implicit Behavioral Alignment of Language Agents in High-Stakes Crowd Simulations](https://arxiv.org/abs/2509.16457), and contains the implementation of Persona–Environment Behavioral Alignment (PEBA) and its optimization algorithm, PersonaEvolve (PEvo) in a Unity3D-based Active Shooter Incident Simulation. The framework reduces the Behavior–Realism Gap by iteratively refining agent personas so their collective behaviors match expert expectations. 
+
+For demo videos and more information, please visit our [Project Homepage](https://hats-ict.github.io/peba-asi-web/).
 
 > [!NOTE]  
 > **Proprietary Constraints Notice** The original Unity environment scene will not be made publicly available at the moment due to proprietary constraints. We provide sample simulation log data and a interactive replay web viewer for visualization and data analysis code for educational purposes.
